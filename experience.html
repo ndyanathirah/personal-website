@@ -1,0 +1,256 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nordiana Athirah - About</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Settings */
+        body {
+            font-family: 'Cormorant SC', serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('image/background website.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            color: #6b5843;
+        }
+
+        /* Header */
+        header {
+            background-color: rgba(230, 220, 207, 0.9); /* Slight transparency */
+            text-align: center;
+            padding: 20px;
+        }
+
+        header .logo {
+            height: 100px;
+        }
+
+          /* Navigation Bar */
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 0 20px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Cormorant SC', serif;
+        color: #7b674f; /* Default link color */
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    nav ul li a:hover {
+        color: #f2f0ec; /* Change text color on hover */
+        text-decoration: underline; /* Optional underline effect */
+        transition: color 0.3s ease; /* Smooth transition */
+    }
+
+
+        /* Links Below Navigation - Add Spacing */
+         div a {
+            background: none; /* Remove background */
+            text-decoration: underline; /* Underline links */
+            color: #4e3c2d; /* Default color */
+            font-weight: bold;
+            margin: 0 15px; /* Add horizontal spacing between links */
+            display: inline-block; /* Ensure margin is applied */
+            padding: 10px 0; /* Add vertical spacing */
+            transition: color 0.3s ease; /* Smooth transition for color change */
+        }
+
+         div a:visited {
+            color: #efe4da; /* Color for visited links */
+        }
+
+         div a:hover {
+            color: #5f5954; /* Color when hovered */
+        }
+
+         div a:active {
+            color: #ff3aae; /* Color when clicked */
+        }
+		
+        .experience-table td {
+            padding: 25px;
+            vertical-align: top;
+            background-color: rgba(245, 240, 235, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .experience-table td:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .experience-table img {
+            width: 500px;
+            height: 300px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .experience-table h3 {
+            margin: 10px 0;
+            font-family: 'Cinzel', serif;
+            font-size: 22px;
+            color: #4e3c2d;
+        }
+
+        .experience-table p {
+            margin: 5px 0;
+            font-family: 'Cormorant SC', serif;
+            font-size: 16px;
+            color: #6b5843;
+        }
+
+        .experience-table ul {
+            list-style-type: square;
+            padding-left: 20px;
+            margin: 5px 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: rgba(107, 88, 67, 0.9);
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 18px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: rgba(230, 220, 207, 0.9); padding: 5px; text-align: left;">
+        <audio id="audio" autoplay loop>
+            <source src="audio/Instrumental.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <button onclick="document.getElementById('audio').play()" style="background-color: #6b5843; color: white; border: none; padding: 5px 5px; border-radius: 5px;">
+            Enable Sound
+        </button>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <img src="image/Diana logo.png" alt="Diana Logo" class="logo">
+        <h1>Welcome to My Website!</h1>
+        <marquee width= "300" scrollamount"50">Information Management Student</marquee>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="memories.html">Memories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <!-- Links Below Navigation -->
+   <div style="text-align: center; margin: 20px auto; padding: 20px;">
+       <a href="#bb-mini-market">BB Mini Market</a>
+       <a href="#restaurant-kak-su">Restaurant Kak Su</a>
+       <a href="#wee-min-trading">WEE MIN Trading</a>
+   </div>
+
+    <!-- Experiences Table -->
+    <div style="display: flex; justify-content: center; margin: 40px 0;">
+        <table class="experience-table" style="width: 90%; text-align: center; border-spacing: 20px; animation: fadeInUp 1.5s;">
+            <tr id="bb-mini-market">
+                <td style="width: 40%;">
+                    <img src="image/BB mini market.jpg" alt="BB Mini Market" style="width: 100%; max-width: 300px; border: 5px solid #6b5843; border-radius: 15px;" />
+                </td>
+                <td>
+                    <h3 style="font-size: 26px; color: #6b5843;">BB Mini Market: Cashier (Part-Time)</h3>
+                    <p><em style="font-size: 18px; color: #4e3c2d;">October - November 2020</em></p>
+                    <ul style="text-align: left; margin: 10px 0;">
+                        <li>Excelled in providing exceptional customer service, fostering positive customer relationships, and ensuring a welcoming shopping experience.</li>
+                        <li>Demonstrated strong multitasking abilities by accurately processing transactions, managing cash, and maintaining an organized checkout area.</li>
+                        <li>Assisted in restocking shelves and ensuring product displays were visually appealing to enhance the customer shopping experience.</li>
+                        <li>Resolved customer inquiries and complaints effectively, maintaining professionalism and a customer-first attitude.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr id="restaurant-kak-su">
+                <td>
+                    <img src="image/restoran kak su.jpg" alt="Restaurant Kak Su" style="width: 100%; max-width: 300px; border: 5px solid #6b5843; border-radius: 15px;" />
+                </td>
+                <td>
+                    <h3 style="font-size: 26px; color: #6b5843;">Restaurant Kak Su: Kitchen Staff</h3>
+                    <p><em style="font-size: 18px; color: #4e3c2d;">July - October 2022</em></p>
+                    <ul style="text-align: left; margin: 10px 0;">
+                        <li>Assisted in preparing and cooking a variety of dishes, ensuring high standards of food quality and presentation.</li>
+                        <li>Maintained a clean and organized kitchen, adhering to food safety and sanitation guidelines to create a safe working environment.</li>
+                        <li>Supported the head chef by preparing ingredients, managing inventory, and ensuring the smooth flow of kitchen operations during busy hours.</li>
+                        <li>Worked collaboratively with the team to improve kitchen efficiency and reduce food waste.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr id="wee-min-trading">
+                <td>
+                    <img src="image/wee min trading.jpg" alt="WEE MIN Trading" style="width: 100%; max-width: 300px; border: 5px solid #6b5843; border-radius: 15px;" />
+                </td>
+                <td>
+                    <h3 style="font-size: 26px; color: #6b5843;">WEE MIN Trading: Promoter</h3>
+                    <p><em style="font-size: 18px; color: #4e3c2d;">February - March 2024</em></p>
+                    <ul style="text-align: left; margin: 10px 0;">
+                        <li>Successfully promoted products and services at various events, increasing brand awareness and driving customer engagement.</li>
+                        <li>Achieved sales targets by utilizing persuasive techniques and in-depth product knowledge, contributing to significant revenue growth.</li>
+                        <li>Distributed promotional materials and provided product demonstrations to highlight key features and benefits to potential customers.</li>
+                        <li>Gathered customer feedback to improve product offerings and provided insights to the sales team for better market strategies.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer -->
+<footer style="margin-top: 40px; background-color: #bfaf97; text-align: center; padding: 20px 0; font-size: 18px;">
+    <div style="margin-bottom: 10px;">
+        &copy; 2024 | Design by <a href="experience.html" style="color: #6b5843; text-decoration: none; font-weight: bold;">Nordiana Athirah</a>. All rights reserved.
+    </div>
+    <!-- Social Media Icons -->
+    <div style="display: inline-block; margin-top: 10px;">
+        <a href="https://www.instagram.com/ndyanathirh" target="_blank" style="margin: 0 15px;">
+            <img src="image/ig.jpg" alt="Instagram" style="width: 40px; height: 40px; vertical-align: middle; border-radius: 50%;">
+        </a>
+        <a href="https://www.tiktok.com/@hyfstwfyn" target="_blank" style="margin: 0 15px;">
+            <img src="image/tiktok.jpg" alt="TikTok" style="width: 40px; height: 40px; vertical-align: middle; border-radius: 50%;">
+        </a>
+        <a href="https://www.x.com/ndyanathirh" target="_blank" style="margin: 0 15px;">
+            <img src="image/twitter.jpg" alt="Twitter" style="width: 40px; height: 40px; vertical-align: middle; border-radius: 50%;">
+        </a>
+    </div>
+</footer>
+</body>
+
+</html>
+

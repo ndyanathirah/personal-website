@@ -1,0 +1,294 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nordiana Athirah - Home</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* General Body Settings */
+        body {
+            font-family: 'Cormorant SC', serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('image/background website.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            color: #6b5843;
+        }
+
+        /* Header Section */
+        header {
+            background-color: rgba(230, 220, 207, 0.9);
+            text-align: center;
+            padding: 20px;
+        }
+        header .logo {
+            height: 100px;
+        }
+        header h1 {
+            font-size: 2em;
+            margin: 10px 0;
+        }
+        header marquee {
+            font-size: 1.2em;
+            color: #7b674f;
+        }
+          /* Navigation Bar */
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 0 20px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Cormorant SC', serif;
+        color: #7b674f; /* Default link color */
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    nav ul li a:hover {
+        color: #f2f0ec; /* Change text color on hover */
+        text-decoration: underline; /* Optional underline effect */
+        transition: color 0.3s ease; /* Smooth transition */
+    }
+        /* Table Section */
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: separate;
+            border-spacing: 20px;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+        td {
+            padding: 20px;
+            background-color: rgba(230, 220, 207, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        td:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .image-cell img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .image-cell img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Slideshow Styling */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+        .mySlides {
+            display: none;
+        }
+        .mySlides img {
+            width: 100%;
+        }
+        .text {
+            color: #f2f2f2;
+            font-size: 48px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 3px;
+            user-select: none;
+        }
+        .prev {
+            left: 0;
+        }
+        .next {
+            right: 0;
+        }
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+        .active, .dot:hover {
+            background-color: #717171;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: rgba(107, 88, 67, 0.9);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fade {
+            from {opacity: 0.4;}
+            to {opacity: 1;}
+        }
+    </style>
+</head>
+<body>
+    <!-- Audio Section -->
+    <div style="background-color: rgba(230, 220, 207, 0.9); padding: 5px; text-align: left;">
+        <audio id="audio" autoplay loop>
+            <source src="audio/Instrumental.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <button onclick="document.getElementById('audio').play()" style="background-color: #6b5843; color: white; border: none; padding: 5px 5px; border-radius: 5px;">
+            Enable Sound
+        </button>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <img src="image/Diana logo.png" alt="Diana Logo" class="logo">
+        <h1>Welcome to My Website!</h1>
+        <marquee width= "300" scrollamount"50">Information Management Student</marquee>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="memories.html">Memories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Table Section -->
+    <table>
+        <tr>
+            <td class="image-cell"><img src="image/home 1.jpg" alt="Decorative Tableware"></td>
+            <td colspan="6">
+                <!-- Slideshow -->
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img src="image/image 1.jpg" alt="Nature">
+                        <div class="text">Myself</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="image/image 2.jpg" alt="Snow">
+                        <div class="text">Friends</div>
+					</div>
+                    <div class="mySlides fade">
+                        <img src="image/image 3 .jpg" alt="Family">
+                        <div class="text">Family</div>
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
+                <br>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+            </td>
+            <td class="image-cell"><img src="image/home 2.jpg" alt="Minimalist Shelf Decor"></td>
+        </tr>
+    </table>
+
+    <!-- Footer -->
+<footer style="margin-top: 40px; background-color: #bfaf97; text-align: center; padding: 20px 0; font-size: 18px;">
+    <div style="margin-bottom: 10px;">
+        &copy; 2024 | Design by <a href="index.html" style="color: #6b5843; text-decoration: none; font-weight: bold;">Nordiana Athirah</a>. All rights reserved.
+    </div>
+    <!-- Social Media Icons -->
+    <div style="display: inline-block; margin-top: 10px;">
+        <a href="https://www.instagram.com/ndyanathirh" target="_blank" style="margin: 0 15px;">
+            <img src="image/ig.jpg" alt="Instagram" style="width: 40px; height: 40px; vertical-align: middle; border-radius: 50%;">
+        </a>
+        <a href="https://www.tiktok.com/@hyfstwfyn" target="_blank" style="margin: 0 15px;">
+            <img src="image/tiktok.jpg" alt="TikTok" style="width: 40px; height: 40px; vertical-align: middle; border-radius: 50%;">
+        </a>
+        <a href="https://www.x.com/ndyanathirh" target="_blank" style="margin: 0 15px;">
+            <img src="image/twitter.jpg" alt="Twitter" style="width: 40px; height: 40px; vertical-align: middle; border-radius: 50%;">
+        </a>
+    </div>
+</footer>
+
+    <!-- Slideshow Script -->
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            const slides = document.getElementsByClassName("mySlides");
+            const dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
+</body>
+</html>
+

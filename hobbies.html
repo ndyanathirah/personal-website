@@ -1,0 +1,277 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nordiana Athirah - Hobbies</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Settings */
+        body {
+            font-family: 'Cormorant SC', serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('image/background website.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            color: #6b5843;
+            transition: background 1s ease;
+        }
+
+        /* Header */
+        header {
+            background-color: rgba(230, 220, 207, 0.9);
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            z-index: 10;
+        }
+
+        header .logo {
+            height: 100px;
+            
+        }
+
+        @keyframes logoAnimation {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+         /* Navigation Bar */
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 0 20px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Cormorant SC', serif;
+        color: #7b674f; /* Default link color */
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    nav ul li a:hover {
+        color: #f2f0ec; /* Change text color on hover */
+        text-decoration: underline; /* Optional underline effect */
+        transition: color 0.3s ease; /* Smooth transition */
+    }
+
+        /* Table Styling */
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: separate;
+            border-spacing: 20px;
+            text-align: center;
+            animation: tableAnimation 2s ease-out;
+        }
+
+        @keyframes tableAnimation {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        td {
+            padding: 20px;
+            background-color: rgba(230, 220, 207, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        td:hover {
+            transform: scale(1.05);
+        }
+
+        td h3 {
+            margin: 10px 0;
+            font-size: 36px;
+            color: #6b5843;
+            font-family: 'Tangerine', cursive;
+        }
+
+        td p {
+            margin: 10px 0;
+            color: #6b5843;
+            text-align: justify;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        td img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        td img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Footer */
+        footer {
+            background-color: rgba(107, 88, 67, 0.9);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <div style="background-color: rgba(230, 220, 207, 0.9); padding: 5px; text-align: left;">
+    <audio id="audio" autoplay loop>
+        <source src="audio/Instrumental.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <button onclick="document.getElementById('audio').play()" style="background-color: #6b5843; color: white; border: none; padding: 5px 5px; border-radius: 5px;">
+        Enable Sound
+    </button>
+</div>
+   
+    <!-- Header -->
+    <header>
+        <img src="image/Diana logo.png" alt="Diana Logo" class="logo">
+        <h1>Welcome to My Website!</h1>
+		<marquee width= "300" scrollamount"50">Information Management Student</marquee>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="memories.html">Memories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Table 1 -->
+	<table style="width: 95%; margin: auto; border-collapse: separate; border-spacing: 20px;">
+    <tr>
+        <!-- Hobbies 1 -->
+        <td style="background-color: rgba(230, 220, 207, 0.9); border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 40px; width: 50%;">
+            <img src="image/makeup.jpg" alt="Makeup" style="width: 300px; height: auto; border-radius: 8px; margin-right: 15px; float: left;">
+            <div>
+                <h3 style="margin: 0; font-family: 'Tangerine', cursive; color: #6b5843;">Makeup</h3>
+                <p style="margin: 5px 0; font-family: 'Cormorant SC', serif; color: #6b5843; text-align: justify;">I really enjoy doing makeup because it allows me to express myself creatively and boost my confidence. Each time I pick up a brush or try a new product, it feels like I’m starting a mini art project, experimenting with colors and techniques to create something that reflects my mood or style. Whether it’s a simple, natural look or something more bold and dramatic, makeup gives me the freedom to transform how I look and feel. I love the process of learning new skills and discovering new trends, and it’s something that brings me joy every time I do it.</p>
+            </div>
+        </td>
+
+        <!-- Hobbies 2 -->
+        <td style="background-color: rgba(230, 220, 207, 0.9); border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 40px; width: 50%;">
+            <img src="image/photographer.jpg" alt="Photography" style="width: 300px; height: auto; border-radius: 8px; margin-right: 15px; float: left;">
+            <div>
+                <h3 style="margin: 0; font-family: 'Tangerine', cursive; color: #6b5843;">Photography</h3>
+                <p style="margin: 5px 0; font-family: 'Cormorant SC', serif; color: #6b5843; text-align: justify;">I have a deep passion for photography because it allows me to capture the world around me in a way that tells a unique story. Whether it’s a fleeting moment, a beautiful landscape, or a simple detail, photography lets me freeze time and express emotions through images. I love experimenting with different angles, lighting, and techniques to bring out the best in every shot. It’s exciting to see how a single photo can evoke so many feelings, and I enjoy the challenge of constantly improving my skills while finding new perspectives. For me, photography is more than just taking pictures; it’s a way to connect with the world and preserve memories in a meaningful way.
+                </p>
+            </div>
+        </td>
+    </tr>
+</table>
+	
+	<!-- Table 2 -->
+    <table style="width: 95%; margin: auto; border-collapse: separate; border-spacing: 20px;" >
+        <tr>
+            <td>
+                <!-- quotes -->
+                <font face="Tangerine" color="#6b5843"><h3>"Do something you love every day, and your heart will be full."
+				</h3></font>
+                
+            </td>
+				
+	<!-- Table 3 -->
+   <table style="width: 95%; margin: auto; border-collapse: separate; border-spacing: 20px;">
+    <tr>
+        <!-- Hobbies 3 -->
+        <td style="background-color: rgba(230, 220, 207, 0.9); border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 40px; width: 50%;">
+            <img src="image/cooking.jpg" alt="Cooking" style="width: 300px; height: auto; border-radius: 8px; margin-right: 15px; float: left;">
+            <div>
+                <h3 style="margin: 0; font-family: 'Tangerine', cursive; color: #6b5843;">Cooking</h3>
+                <p style="margin: 5px 0; font-family: 'Cormorant SC', serif; color: #6b5843; text-align: justify;">Cooking is one of my favorite activities because it allows me to be creative while also satisfying my love for good food. I enjoy experimenting with different ingredients, flavors, and techniques to create meals that are both delicious and unique. Whether it’s trying a new recipe or improvising with what I have on hand, cooking is a way for me to unwind and express myself in the kitchen. The process of preparing a meal—from chopping vegetables to the final presentation—feels rewarding, and there’s something special about sharing what I’ve made with others. For me, cooking is not just about nourishment; it’s about bringing people together and creating something meaningful with my own hands.</p>
+            </div>
+        </td>
+
+        <!-- Hobbies 4 -->
+        <td style="background-color: rgba(230, 220, 207, 0.9); border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 40px; width: 50%;">
+            <img src="image/fashion.jpg" alt="Fashion" style="width: 300px; height: auto; border-radius: 8px; margin-right: 15px; float: left;">
+            <div>
+                <h3 style="margin: 0; font-family: 'Tangerine', cursive; color: #6b5843;">Fashion</h3>
+                <p style="margin: 5px 0; font-family: 'Cormorant SC', serif; color: #6b5843; text-align: justify;">Fashion is something I truly love because it’s a form of self-expression that allows me to showcase my personality and creativity. I enjoy experimenting with different styles, mixing trends with timeless pieces, and creating outfits that make me feel confident and unique. Whether it's dressing up for a special occasion or putting together a casual look, fashion gives me the freedom to play with colors, textures, and silhouettes. It’s not just about following trends; it’s about curating a style that feels authentic to me. Fashion is a fun way to tell a story without words and reflects how I see myself.
+                </p>
+            </div>
+        </td>
+    </tr>
+</table> 
+
+     <!-- Table 4 -->
+    <table style="width: 95%; margin: auto; border-collapse: separate; border-spacing: 20px;" >
+        <tr>
+            <td>
+                <!-- quotes -->
+                <font face="Tangerine" color="#6b5843"><h3>"Life is what happens when you're busy doing something you love."
+				</h3></font>
+                
+            </td>
+				
+	<!-- Table 5-->
+   <table style="width: 95%; margin: auto; border-collapse: separate; border-spacing: 20px;">
+    <tr>
+        <!-- Hobbies 5-->
+        <td style="background-color: rgba(230, 220, 207, 0.9); border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 40px; width: 50%;">
+            <img src="image/explore.jpg" alt="Explore" style="width: 300px; height: auto; border-radius: 8px; margin-right: 15px; float: left;">
+            <div>
+                <h3 style="margin: 0; font-family: 'Tangerine', cursive; color: #6b5843;">Exploration</h3>
+                <p style="margin: 5px 0; font-family: 'Cormorant SC', serif; color: #6b5843; text-align: justify;">
+               Exploration is something I truly enjoy because it opens up endless possibilities for discovery and adventure. Whether it’s traveling to new places, exploring hidden gems in my own city, or stepping outside my comfort zone, I love the feeling of uncovering something unfamiliar. Each new experience—whether it’s a scenic hike, a local café, or a different culture—adds to my understanding of the world and broadens my perspective. Exploration keeps me curious and reminds me how much there is to see and learn, and it’s exciting to know that there are always new places to discover and new experiences to be had.</p>
+            </div>
+        </td>
+
+        <!-- Hobbies 6 -->
+        <td style="background-color: rgba(230, 220, 207, 0.9); border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 40px; width: 50%;">
+            <img src="image/watching movie.jpg" alt="watching movie" style="width: 300px; height: auto; border-radius: 8px; margin-right: 15px; float: left;">
+            <div>
+                <h3 style="margin: 0; font-family: 'Tangerine', cursive; color: #6b5843;">Watching Movies</h3>
+                <p style="margin: 5px 0; font-family: 'Cormorant SC', serif; color: #6b5843; text-align: justify;">Watching movies is one of my favorite pastimes because it allows me to escape into different worlds, experience new perspectives, and connect with a range of emotions. I love the art of storytelling, and movies offer a unique blend of visuals, sound, and narrative that can captivate and inspire me. Whether it’s a thought-provoking drama, an action-packed adventure, or a lighthearted comedy, I enjoy how each genre offers something different. Movies have a way of sparking my imagination, making me reflect on life, and sometimes even teaching me something new. It’s a form of entertainment that brings joy, relaxation, and a sense of connection with the characters and stories on screen.
+                </p>
+            </div>
+        </td>
+    </tr>
+</table> 
+	
+	<!-- Footer -->
+<footer style="margin-top: 40px; background-color: #bfaf97; text-align: center; padding: 20px 0; font-size: 18px;">
+    <div style="margin-bottom: 10px;">
+        &copy; 2024 | Design by <a href="hobbies.html" style="color: #6b5843; text-decoration: none; font-weight: bold;">Nordiana Athirah</a>. All rights reserved.
+    </div>
+    <!-- Social Media Icons -->
+    <div style="display: inline-block; margin-top: 10px;">
+        <a href="https://www.instagram.com/ndyanathirh" target="_blank" style="margin: 0 15px;">
+            <img src="image/ig.jpg" alt="Instagram" style="width: 40px; height: 40px; vertical-align: middle; border-radius: 50%;">
+        </a>
+        <a href="https://www.tiktok.com/@hyfstwfyn" target="_blank" style="margin: 0 15px;">
+            <img src="image/tiktok.jpg" alt="TikTok" style="width: 40px; height: 40px; vertical-align: middle; border-radius: 50%;">
+        </a>
+        <a href="https://www.x.com/ndyanathirh" target="_blank" style="margin: 0 15px;">
+            <img src="image/twitter.jpg" alt="Twitter" style="width: 40px; height: 40px; vertical-align: middle; border-radius: 50%;">
+        </a>
+    </div>
+</footer>
+</body>
+</html>
